@@ -14,13 +14,15 @@ export default {
     /* Example: Bundle your final build: */
     // "bundle": true,
   },
-  packageOptions: {
-    /* ... */
-  },
   devOptions: {
     /* ... */
   },
   buildOptions: {
     /* ... */
+  },
+  packageOptions: {
+    source: 'remote',
+    origin: 'https://pkg.snowpack.dev',
+    types: true,
   },
 };
